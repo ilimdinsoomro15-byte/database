@@ -13,7 +13,7 @@ public class OnlineExamSystem extends JFrame implements ActionListener {
     // Database connection parameters
     private static final String DB_URL = "jdbc:mysql://localhost:3306/exam_system";
     private static final String DB_USER = "root"; // Change this to your MySQL username
-    private static final String DB_PASSWORD = "Ilim@123"; // Change this to your MySQL password
+    private static final String DB_PASSWORD = ""; // Change this to your MySQL password
     
     // Database objects
     private Connection connection;
