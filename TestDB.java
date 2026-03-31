@@ -5,7 +5,7 @@ public class TestDB {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/exam_system", "root", "Ilim@123");
+                "jdbc:mysql://localhost:3306/exam_system", "root", "");
             System.out.println("Connected successfully!");
             conn.close();
         } catch (Exception e) {
